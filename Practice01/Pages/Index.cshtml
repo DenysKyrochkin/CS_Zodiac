@@ -1,0 +1,15 @@
+﻿@page
+@model IndexModel
+@using Practice01.Models;
+@{
+    ViewData["Title"] = "Birthday";
+}
+
+<h2>@Model.Header</h2>
+<form method="post">
+    <input type="date" name="date" id="date" />
+    <input type="submit" value="Submit" /><br /><br />
+</form>
+
+
+<p>@Model.Information</p>
